@@ -1,5 +1,58 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-/*# sourceMappingURL=style.css.map */
+
+#weather {
+  padding: 100px 0;
+}
+#weather .box {
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  border-radius: 20px;
+  width: 250px;
+}
+#weather .box .data h1, #weather .box .data h2 {
+  color: white;
+  font-size: 25px;
+  margin: 28px;
+}
+#weather .box input {
+  border-radius: 20px;
+  height: 40px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+#weather .box #btn {
+  background-color: #79afff;
+  padding: 9px;
+  border-radius: 20px;
+  color: white;
+  width: 110px;
+  margin: 28px auto 34px;
+  font-size: 20px;
+}
+#weather .box #btn:hover {
+  cursor: pointer;
+  background-color: #6f7cb1;
+}
+#weather .box ul {
+  display: flex;
+  justify-content: center;
+}
+#weather .box ul li {
+  margin: 28px;
+  color: white;
+  font-size: 25px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 992px) {
+  #weather .box {
+    height: 200px;
+  }
+  #weather .box input {
+    font-size: 12px;
+  }
+  #weather .box #btn {
+    width: 80px;
+  }
+}/*# sourceMappingURL=style.css.map */
