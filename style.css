@@ -45,14 +45,14 @@ body {
   font-size: 25px;
   margin-left: 15px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   #weather .box {
-    height: 200px;
+    width: 220px;
   }
   #weather .box input {
-    font-size: 12px;
+    font-size: 15px;
   }
   #weather .box #btn {
-    width: 80px;
+    width: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
